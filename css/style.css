@@ -4,7 +4,22 @@ body{
   font-family: Open Sans,sans-serif;
   background-color: #8A71C9;
   color:#ffffff;
-  margin:0px;
+  margin:0px 0px 30px 0px;
+}
+
+.filme{
+  text-align:center;
+  font-size: large;
+  color-adjust: #2A0074;
+}
+.estrelas{
+  width: 50%;
+  margin-top: none;
+  text-align: left;
+}
+.trailerestrelas {
+  color:#99ffff;
+  text-align: center;
 }
 
 a{
@@ -33,22 +48,24 @@ h1{
   
 }
 .titulo-green{
-  color:#04ff9f ;
+  color:#2A0074 ;
 }
 
 .titulo-red{
-  color:#FF9E9E;
+  color:#2A0074;
 }
 
 .titulo-yellow{
-  color:#ffe36d;
+  color:#2A0074;
 }
 
 section{
-  background-color:rgba(255, 254, 255, 0.521);
-  max-width:60%;
+  width:60%;
   margin: 0 auto;
+}
 
+section section{
+  width: 100%;
 }
 
 img{
@@ -57,5 +74,38 @@ img{
 ul{
   list-style-type: none;
   line-height: 2;
-  padding-left: 16;
+  padding-left: 0;
 }
+
+.menuPrincipal  a{
+  color: aquamarine;
+  font-weight: normal;
+  
+
+}
+
+.menuPrincipal{
+    background-color: #ff6cb5;
+    height: 40px;
+    max-width: 65%;
+    margin: 0 auto;
+    
+}
+
+
+.menuPrincipal li{
+  display: inline-block ;
+  line-height: 2.5;
+  margin: 0 89px;
+  position: relative;
+
+}
+
+button{
+ background-color: #2A0074;
+  color:aliceblue;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+}
+
